@@ -1,3 +1,6 @@
+'use client'
+import { useState } from "react";
+
 export default function calculator() {
   return (
     <>
@@ -8,16 +11,16 @@ export default function calculator() {
         className="bg-gray-600 text-4xl p-2 rounded-2xl"
       />
       <div className="flex justify-evenly py-6">
-        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black">
+        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black rounded-2xl">
           +
         </button>
-        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black">
+        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black rounded-2xl">
           -
         </button>
-        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black">
+        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black rounded-2xl">
           *
         </button>
-        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black">
+        <button type="button" className="px-4 py-1 bg-orange-300 text-4xl text-black rounded-2xl">
           /
         </button>
       </div>
